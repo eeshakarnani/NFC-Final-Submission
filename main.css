@@ -1,0 +1,19 @@
+/* Hide Streamlit Style */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Page Background Added */
+[data-testid="stAppViewContainer"] {
+    background-color: #444CF755;
+    /* White background */
+    opacity: 1;  /* Full opacity */
+    background-image: /*repeating-radial-gradient(circle at 0 0, transparent 0, #000080 10px),*/ repeating-linear-gradient(#ADD8E6, #ADD8E6);}
